@@ -11,6 +11,7 @@ import {
 function Header() {
   const menuItems = [
     { text: "Over mij", link: "/over_mij" },
+    { text: "Coaching", link: "/" },
     { text: "Workshops", link: "/workshops" },
   ];
 

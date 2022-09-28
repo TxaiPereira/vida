@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 import { headerColor, linkColor, linkHoverColor } from "../../colors";
 import LogoImg from "./assets/logo.svg";
+import LogoSmallImg from "./assets/logoSmall.svg";
 
 export const HeaderWrapper = styled.header`
   display: flex;
@@ -44,12 +45,15 @@ export const MenuLink = styled.a`
 export const Logo = styled.div`
   background-image: url(${LogoImg});
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   height: 100%;
   width: 200px;
   margin-left: 20px;
 
-  @media only screen and (max-width: 992px) {
-    width: 120px;
+  @media only screen and (max-width: 510px) {
+    background-image: url(${LogoSmallImg});
+    background-position: left;
+    margin-left: 10px;
+    width: 80px;
   }
 `;
