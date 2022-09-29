@@ -15,15 +15,15 @@ function App() {
     {
       header: "WAT IS VIDA?",
       text: [
-        "VIDA betekent LEVEN. VIDA, vrouwen voor creatie. VIDA is een creatief christelijke coachpraktijk voor vrouwen die Nederlandstalig of Portugeestalig zijn. God is de bron van VIDA.",
-        "VIDA is de plaats waar je Gods liefde ervaart en waar je jezelf kan zijn. Hier gaan we samen creëren en kan je tot je hart komen. Bij VIDA ga je bloeien, groeien en zijn hoe God het heeft bedoeld: geliefd, waardig en kostbaar.",
+        "VIDA betekent LEVEN. VIDA, vrouwen voor creatie. VIDA is een creatief christelijke coachpraktijk voor vrouwen die Nederlandstalig of Portugeestalig zijn.",
+        "God is de bron van VIDA. Van U komt het leven, van U komt het licht. VIDA is de plaats waar je Gods liefde ervaart en waar je jezelf kan zijn. Hier gaan we samen creëren en kan je tot je hart komen. Bij VIDA ga je bloeien, groeien en zijn hoe God het heeft bedoeld: geliefd, waardig en kostbaar.",
       ],
       hasList: false,
       hasQuotes: true,
       quotes: [
         {
           quote:
-            "“Want God is de bron van al het LEVEN. Van U komt het leven, van U komt het licht.”",
+            "“Want God is de bron van al het LEVEN: als wij in Uw licht staan, zien wij de dingen duidelijk.”",
           source: "Psalm 36:10",
         },
       ],
@@ -136,8 +136,7 @@ function App() {
       hasQuotes: true,
       quotes: [
         {
-          quote:
-            "“Want God is de bron van al het LEVEN. Van U komt het leven, van U komt het licht.”",
+          quote: "“Want God is de bron van al het LEVEN.”",
           source: "Psalm 36:10",
         },
       ],
