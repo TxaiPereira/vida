@@ -1,0 +1,118 @@
+[
+  {
+    "header": "O que é Vida?",
+    "text": [
+      "VIDA significa VIDA. VIDA, mulheres para a criação. VIDA é uma prática criativa de coaching cristão para mulheres que falam holandês ou português.",
+      "Deus é a fonte de VIDA. De você vem a vida, de você vem a luz. VIDA é o lugar onde você experimenta o amor de Deus e onde você pode ser você mesmo. Aqui vamos criar juntos e você pode chegar ao seu coração. No VIDA você vai prosperar, crescer e ser o que Deus planejou: amado, digno e precioso."
+    ],
+    "hasList": false,
+    "hasQuotes": true,
+    "quotes": [
+      {
+        "quote": "“Pois Deus é a fonte de toda a VIDA: quando estamos em Sua luz, vemos as coisas com clareza.”",
+        "source": "Salmo 36:10"
+      }
+    ],
+    "link": "/"
+  },
+
+  {
+    "header": "Coaching Cristão Criativo",
+    "text": [
+      "Deus é o Criador, Ele fez você e também deu a você Suas habilidades criativas. A criatividade é uma forma de trabalho que pode te ajudar a curar velhas dores, bloqueios e emoções de forma segura.",
+      "A missão do VIDA é passo a passo, dar lugar ao seu passado e deixá-lo ir, para caminhar rumo ao futuro que Deus tem para você. Fazemos isso criando arte, para que você floresça. Você descobrirá que é digno, com suas habilidades e talentos únicos."
+    ],
+    "hasList": true,
+    "lists": [
+      {
+        "text": ["Em seguida, trabalharemos com diferentes técnicas, como:"],
+        "items": [
+          "Pintar",
+          "Empate",
+          "Criar colagens",
+          "Mídia mista",
+          "Trabalhando com materiais da natureza"
+        ]
+      },
+      {
+        "text": [
+          "Você já pensou:",
+          "Não deixe que esses pensamentos o impeçam. Qualquer um pode criar, inclusive você.",
+          "Quer marcar uma consulta? Entre em contato conosco via e-mail (name@gmail.com) ou telefone (777-7777777)."
+        ],
+        "items": [
+          "Eu não sei desenhar",
+          "Eu não sou criativo",
+          "Nao tenho experiencia",
+          "Por que eu deveria começar isso?"
+        ]
+      }
+    ],
+    "hasQuotes": false,
+    "link": "/"
+  },
+  {
+    "header": "Sobre Mim",
+    "text": [
+      "Meu nome é Ingrid Pereira de Lacerda-Eltink, nascida no Brasil em 1967 e filha de pais holandeses. Sou casada e mãe de 2 filhos adultos.",
+      "No Brasil me formei como terapia ocupacional na universidade. Lá eu trabalhei em diferentes clínicas. Na Holanda, trabalho desde 2003 como supervisora ​​de atividades em um lar de idosos, onde sou supervisora, entre outras coisas, do clube de música clássica, clube de desenho e pintura e clube de arranjos de flores.",
+      "Eu sempre tive um coração para as pessoas. Atuei em trabalhos infantis, Sala de Cura, Posto de Oração e atualmente no grupo de mulheres “Mulheres Conectadas com Deus”.",
+      "Em 2021 segui o programa semestral “Powerlife” de Powerwomen da Total Balance. Desde 2022 acompanho a formação “Coaching com a Sua Criatividade” do Atelier Ágape e a formação “Pastoral Coach” da Total Balance."
+    ],
+    "hasList": false,
+    "hasQuotes": false,
+    "link": "/over_mij"
+  },
+  {
+    "header": "Por que estou fazendo isto",
+    "text": [
+      "Desde criança sou criativa desenhando e fazendo artesanato. Por viver no meio da natureza, me inspirei no meu ambiente para criar.",
+      "À medida que envelheci, meu foco mudou cada vez mais para meus estudos e coloquei minha criatividade cada vez mais em segundo plano. Eu era solitário, ansioso, tímido, perfeccionista e tentava agradar a todos.",
+      "Enquanto crescia, eu estava procurando a verdade até conhecer Jesus. Deu-me um propósito na vida, mas ainda tinha que mudar muito no meu coração. Junto com Deus e os cristãos que conheci ao longo dos anos, minha mente e meu coração foram curados. Agora sei que sou amado, digno e precioso. Além disso, desfruto novamente da criatividade que Deus me deu, como quando eu era criança.",
+      "Por causa do que passei na minha vida, quero ajudar outras mulheres. Por meio da criatividade quero dar vida à sua verdade, fundamentada na palavra de Deus e guiada pelo Espírito Santo."
+    ],
+    "hasList": false,
+    "hasQuotes": false,
+    "link": "/over_mij"
+  },
+
+  {
+    "header": "Oficina",
+    "text": [
+      "Você está procurando relaxamento, paz e tempo para si mesmo. Você gosta de ser criativo com outras mulheres ou apenas comigo. Então você está no lugar certo no VIDA."
+    ],
+    "hasList": true,
+    "lists": [
+      {
+        "text": ["Qual oficina combina com você?"],
+        "items": [
+          "Pintura - sobre tela com tinta acrílica em diversas técnicas.",
+          "Mídia mista – uma pintura ou um caderno é criado misturando todos os tipos de materiais e técnicas diferentes.",
+          "Arranjo de flores – você cria um lindo arranjo de flores com diferentes flores e folhagens usando diferentes técnicas.",
+          "Moodboard – com imagens você cria sua própria colagem com base em um tema.",
+          "Criação bíblica – você cria uma pintura baseada em um texto bíblico."
+        ]
+      },
+      {
+        "text": [
+          "O workshop é realizado para grupos de mulheres (max. 6 pessoas) ou individualmente."
+        ],
+        "items": [
+          "O preço é ?, incluindo material e café/chá",
+          "Data ainda não é conhecida",
+          "O tempo ainda não é conhecido"
+        ]
+      }
+    ],
+    "hasQuotes": false,
+    "link": "/workshops"
+  },
+  {
+    "readMore": "consulte Mais informação",
+    "addressHeader": "MORADA",
+    "contactHeader": "CONTATO",
+    "aboutMeLinkText": "Sobre mim",
+    "coachingLinkText": "Coaching",
+    "workshopsLinkText": "Oficina"
+  }
+]

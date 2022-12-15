@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {
   FooterWrapper,
   InfoBlocks,
@@ -7,18 +7,18 @@ import {
   InfoText,
 } from "./styles";
 
-function Footer() {
+function Footer({ data }) {
   return (
     <FooterWrapper>
       <InfoBlocks>
         <InfoBlock>
-          <InfoHeader>ADRES</InfoHeader>
+          <InfoHeader>{data.addressHeader}</InfoHeader>
           <InfoText>Vrouwlaan 85</InfoText>
           <InfoText>1337 GG Hemeldam</InfoText>
           <InfoText>Nederland</InfoText>
         </InfoBlock>
         <InfoBlock>
-          <InfoHeader>CONTACT</InfoHeader>
+          <InfoHeader>{data.contactHeader}</InfoHeader>
           <InfoText>naam@gmail.com</InfoText>
           <InfoText>Tel: 777-7777777</InfoText>
         </InfoBlock>

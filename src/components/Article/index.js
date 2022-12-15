@@ -2,45 +2,42 @@ import React, { useState, useEffect } from "react";
 import { ArticleWrapper, ArticleText, H1, P, List, ListItem } from "./styles";
 import Quote from "../../components/Quote";
 
-function Article({ article, background, headingColor }) {
+function Article({ data, background, headingColor }) {
   return (
     <ArticleWrapper background={background}>
       <ArticleText>
-        <H1 headingColor={headingColor}>{article.header}</H1>
-        <P>{article.text[0]}</P>
+        <H1 headingColor={headingColor}>{data.header}</H1>
+        <P>{data.text[0]}</P>
 
-        {article.hasQuotes && (
-          <Quote
-            quote={article.quotes[0].quote}
-            source={article.quotes[0].source}
-          />
+        {data.hasQuotes && (
+          <Quote quote={data.quotes[0].quote} source={data.quotes[0].source} />
         )}
 
-        {article.text[1] !== null && <P>{article.text[1]}</P>}
-        {article.text[2] !== null && <P>{article.text[2]}</P>}
-        {article.text[3] !== null && <P>{article.text[3]}</P>}
+        {data.text[1] !== null && <P>{data.text[1]}</P>}
+        {data.text[2] !== null && <P>{data.text[2]}</P>}
+        {data.text[3] !== null && <P>{data.text[3]}</P>}
 
-        {article.hasList && (
+        {data.hasList && (
           <div>
-            <P>{article.lists[0].text}</P>
+            <P>{data.lists[0].text}</P>
             <List>
-              {article.lists[0].items.map((item) => (
-                <ListItem>{item}</ListItem>
+              {data.lists[0].items.map((item, index) => (
+                <ListItem key={index}>{item}</ListItem>
               ))}
             </List>
           </div>
         )}
 
-        {article.hasList && article.lists.length > 1 && (
+        {data.hasList && data.lists.length > 1 && (
           <div>
-            <P>{article.lists[1].text[0]}</P>
+            <P>{data.lists[1].text[0]}</P>
             <List>
-              {article.lists[1].items.map((item) => (
-                <ListItem>{item}</ListItem>
+              {data.lists[1].items.map((item, index) => (
+                <ListItem key={index}>{item}</ListItem>
               ))}
             </List>
-            <P>{article.lists[1].text[1]}</P>
-            <P>{article.lists[1].text[2]}</P>
+            <P>{data.lists[1].text[1]}</P>
+            <P>{data.lists[1].text[2]}</P>
           </div>
         )}
       </ArticleText>

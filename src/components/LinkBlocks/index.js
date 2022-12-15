@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {
+  LinkSection,
   LinkBlocksWrapper,
   LinkBlockWrapper,
   LinkButton,
@@ -7,17 +8,26 @@ import {
   LinkText,
 } from "./styles";
 
-function LinkBlocks({ articles, background }) {
+function LinkBlocks({ data, background, readMore }) {
+  const textMaxLength = 209;
+  const shortenText = (string) => {
+    return string.length > textMaxLength
+      ? string.substring(0, textMaxLength) + "..."
+      : string;
+  };
+
   return (
-    <LinkBlocksWrapper background={background}>
-      {articles.map((article) => (
-        <LinkBlockWrapper>
-          <Heading>{article.header}</Heading>
-          <LinkText>{article.text[0]}</LinkText>
-          <LinkButton href={article.link}>Lees meer</LinkButton>
-        </LinkBlockWrapper>
-      ))}
-    </LinkBlocksWrapper>
+    <LinkSection>
+      <LinkBlocksWrapper background={background}>
+        {data.map((dataItem, index) => (
+          <LinkBlockWrapper key={index}>
+            <Heading>{dataItem.header}</Heading>
+            <LinkText>{shortenText(dataItem.text[0])}</LinkText>
+            <LinkButton href={dataItem.link}>{readMore}</LinkButton>
+          </LinkBlockWrapper>
+        ))}
+      </LinkBlocksWrapper>
+    </LinkSection>
   );
 }
 export default LinkBlocks;

@@ -36,6 +36,8 @@ export const ArticleText = styled.div`
 export const H1 = styled.h1`
   font-size: 1.5em;
   color: ${(props) => (props.headingColor === 1 ? h1Color1 : h1Color2)};
+  text-align: center;
+  text-transform: uppercase;
 `;
 
 export const P = styled.p`

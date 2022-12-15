@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {
   HeaderWrapper,
   Nav,
@@ -8,11 +8,11 @@ import {
   Logo,
 } from "./styles";
 
-function Header() {
+function Header({ data }) {
   const menuItems = [
-    { text: "Over mij", link: "/over_mij" },
-    { text: "Coaching", link: "/" },
-    { text: "Workshops", link: "/workshops" },
+    { text: data.aboutMeLinkText, link: "/over_mij" },
+    { text: data.coachingLinkText, link: "/" },
+    { text: data.workshopsLinkText, link: "/workshops" },
   ];
 
   return (
@@ -22,8 +22,8 @@ function Header() {
       </a>
       <Nav>
         <MenuList>
-          {menuItems.map((item) => (
-            <MenuItem>
+          {menuItems.map((item, index) => (
+            <MenuItem key={index}>
               <MenuLink href={item.link}>{item.text}</MenuLink>
             </MenuItem>
           ))}
