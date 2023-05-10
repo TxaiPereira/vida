@@ -1,22 +1,5 @@
 [
   {
-    "header": "Por que Vida?",
-    "text": [
-      "VIDA é um coaching cristão criativo para mulheres de língua holandesa e portuguesa.",
-      "Deus é a fonte da VIDA, Dele vem a vida e a luz. VIDA é o lugar onde você vivencia o amor de Deus para si libertar e crescer. No VIDA trabalharenos os seus valores, aptidões, raízes e habilidades para que você possa florecer e creser como Deus planejou: amada, digna e preciosa."
-    ],
-    "hasList": false,
-    "hasQuotes": true,
-    "quotes": [
-      {
-        "quote": "“Pois em Deus está a fonte da vida graças à Tua luz, vemos a luz.”",
-        "source": "Salmo 36:9"
-      }
-    ],
-    "link": "/"
-  },
-
-  {
     "header": "Coaching Cristão Criativo",
     "text": [
       "Deus é o Criador, Ele o fez e deu Suas habilidades criativas também a você. A criatividade é um instrumento que pode ajudá-lo a curar dores, bloqueios e emoções de uma maneira segura.",
@@ -47,6 +30,24 @@
     "hasQuotes": false,
     "link": "/"
   },
+
+  {
+    "header": "Por que Vida?",
+    "text": [
+      "VIDA é um coaching cristão criativo para mulheres de língua holandesa e portuguesa.",
+      "Deus é a fonte da VIDA, Dele vem a vida e a luz. VIDA é o lugar onde você vivencia o amor de Deus para si libertar e crescer. No VIDA trabalharenos os seus valores, aptidões, raízes e habilidades para que você possa florecer e creser como Deus planejou: amada, digna e preciosa."
+    ],
+    "hasList": false,
+    "hasQuotes": true,
+    "quotes": [
+      {
+        "quote": "“Pois em Deus está a fonte da vida; graças à Tua luz, vemos a luz.”",
+        "source": "Salmo 36:9"
+      }
+    ],
+    "link": "/"
+  },
+
   {
     "header": "Quem sou eu",
     "text": [
