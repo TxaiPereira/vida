@@ -25,7 +25,7 @@ export const ArticleWrapper = styled.article`
 export const ArticleText = styled.div`
   width: 640px;
   margin: auto;
-  background-color: white;
+  background-color: #fcfbf4;
   padding: 20px;
 
   @media only screen and (max-width: 992px) {

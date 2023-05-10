@@ -12,8 +12,10 @@ export const BlockQuote = styled.blockquote`
 
 export const QuoteText = styled.p`
   font-size: 1.5em;
+  text-align: center;
 `;
 
 export const QuoteSource = styled.p`
   font-size: 1em;
+  text-align: right;
 `;

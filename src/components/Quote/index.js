@@ -5,7 +5,7 @@ function Quote({ quote, source }) {
   return (
     <BlockQuote>
       <QuoteText>{quote}</QuoteText>
-      <QuoteSource>- {source}</QuoteSource>
+      <QuoteSource>{source}</QuoteSource>
     </BlockQuote>
   );
 }

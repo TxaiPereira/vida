@@ -1,15 +1,15 @@
 [
   {
-    "header": "O que é Vida?",
+    "header": "Por que Vida?",
     "text": [
-      "VIDA significa vida. VIDA é um coaching cristão criativo para mulheres de língua holandesa ou portuguesa.",
-      "Deus é a fonte da VIDA. Do Senhor vem a vida, do Senhor vem a luz. VIDA é o lugar onde você experimenta o amor de Deus e onde você pode ser você mesma. Aqui nós criaremos juntas e você poderá chegar ao seu coração. Na VIDA você florescerá, crescerá e será como Deus planejou: amada, digna e preciosa."
+      "VIDA é um coaching cristão criativo para mulheres de língua holandesa e portuguesa.",
+      "Deus é a fonte da VIDA, Dele vem a vida e a luz. VIDA é o lugar onde você vivencia o amor de Deus para si libertar e crescer. No VIDA trabalharenos os seus valores, aptidões, raízes e habilidades para que você possa florecer e creser como Deus planejou: amada, digna e preciosa."
     ],
     "hasList": false,
     "hasQuotes": true,
     "quotes": [
       {
-        "quote": "“Pois em Ti está a fonte da vidal graças à Tua luz, vemos a luz.”",
+        "quote": "“Pois em Deus está a fonte da vida graças à Tua luz, vemos a luz.”",
         "source": "Salmo 36:9"
       }
     ],
@@ -50,10 +50,10 @@
   {
     "header": "Quem sou eu",
     "text": [
-      "Meu nome é Ingrid Pereira de Lacerda-Eltink, nascida no Brasil em 1967 e filha de pais holandeses. Sou casada e mãe de 2 filhos adultos.",
-      "No Brasil me formei como terapia ocupacional na universidade. Lá eu trabalhei em diferentes clínicas. Na Holanda, trabalho desde 2003 como supervisora ​​de atividades em um lar de idosos, onde sou supervisora, entre outras coisas, do clube de música clássica, clube de desenho e pintura e clube de arranjos de flores.",
-      "Eu sempre tive um coração para as pessoas. Atuei em trabalhos infantis, Sala de Cura, Posto de Oração e atualmente no grupo de mulheres “Mulheres Conectadas com Deus”.",
-      "Em 2021 segui o programa semestral “Powerlife” de Powerwomen da Total Balance. Desde 2022 acompanho a formação “Coaching com a Sua Criatividade” do Atelier Ágape e a formação “Pastoral Coach” da Total Balance."
+      "Sou Ingrid Pereira de Lacerda-Eltink, nascida em 1967, brasileira, filha de holandeses, casada e mãe de 2 filhos.",
+      "Terapeuta ocupacional pela universidade PUC Campinas - Brasil. Com experiência em atendimentos a clínicas. Desde 2003, na Holanda, desenvolvo trabalho de supervisora ​​de atividades em um lar de idosos e de música clássica, desenho e pintura e arranjos de flores.",
+      "Dentro da comunidade cristã atuai em atividades infantis, “Prayer Post”, “Healing Room” e atualmente com o grupo “Mulheres Conectadas com Deus”.",
+      "Em 2021, após o programa “Powerwomen” da Total Balance desenvolvi esse projeto VIDA. Em 2022 conclui o treinamento “Coaching com a Sua Criatividade” - Atelier Ágape e “Pastoral Coach” - Total Balance."
     ],
     "hasList": false,
     "hasQuotes": false,
@@ -62,10 +62,7 @@
   {
     "header": "Minha missão",
     "text": [
-      "Desde a infância, tenho sido criativa, desenhando e fazendo artesanato.",
-      "À medida que fui envelhecendo, meu foco foi se voltando cada vez mais para os meus estudos e deixei minha criatividade para trás. Sentia-me só, ansiosa, tímida, perfeccionista e tentava agradar a todos",
-      "Quando me tornei adulta estava procurando a verdade até quando cheguei a conhecer Jesus. Isso me deu um propósito na vida, mas ainda tinha que mudar muita coisa no meu coração. Junto com Deus e os cristãos que conheci ao longo dos anos, meus pensamentos e meu coração foram curados. Agora eu sei que sou amada, digna e preciosa. Além do mais, gosto novamente da criatividade que Deus me deu, tal como quando eu era criança",
-      "Por causa do que eu vivi na minha vida, quero ajudar outras mulheres. Através da criatividade, quero dar vida à sua verdade, baseada na palavra de Deus e guiada pelo Espírito Santo"
+      "Servir ao próximo com os dons que Deus me deu, desenvolvendo e abrindo o corações das mulheres para transformação pessoal."
     ],
     "hasList": false,
     "hasQuotes": false,
@@ -75,28 +72,29 @@
   {
     "header": "Workshops",
     "text": [
-      "Você está procurando relaxamento, paz e tempo para si mesmo. Você gosta de ser criativo com outras mulheres ou apenas comigo. Então você está no lugar certo no VIDA."
+      "Você está procurando autoconhecimento?",
+      "Você gosta de ser criativo em grupo de mulheres ou individual?",
+      "Então você está no lugar certo no VIDA.",
+      "O workshop é realizado para grupos de mulheres (max. 6 pessoas) ou individualmente."
     ],
     "hasList": true,
     "lists": [
       {
-        "text": ["Qual oficina combina com você?"],
+        "text": ["Através de oficinas:"],
         "items": [
-          "Pintura - sobre tela com tinta acrílica em diversas técnicas.",
-          "Mídia mista – uma pintura ou um caderno é criado misturando todos os tipos de materiais e técnicas diferentes.",
-          "Arranjo de flores – você cria um lindo arranjo de flores com diferentes flores e folhagens usando diferentes técnicas.",
-          "Moodboard – com imagens você cria sua própria colagem com base em um tema.",
-          "Criação bíblica – você cria uma pintura baseada em um texto bíblico."
+          "Pintura",
+          "Mídia mista",
+          "Arranjo de flores",
+          "Moodboard",
+          "Criação bíblica"
         ]
       },
       {
-        "text": [
-          "O workshop é realizado para grupos de mulheres (max. 6 pessoas) ou individualmente."
-        ],
+        "text": ["Informação:"],
         "items": [
-          "O preço é ?, incluindo material e café/chá",
-          "Data ainda não é conhecida",
-          "O tempo ainda não é conhecido"
+          "Data: setembro 2023",
+          "Sessão: individual - 1 hora; grupo - 2 horas",
+          "Invistemento: individual - €65,00; grupo: €30,00; inclusive material e café/chá"
         ]
       }
     ],
