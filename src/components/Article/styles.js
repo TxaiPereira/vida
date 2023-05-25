@@ -9,6 +9,7 @@ import {
 
 import testImg1 from "./assets/test1.jpg";
 import testImg2 from "./assets/test2.jpg";
+import workshopImage from "./assets/workshop.jpg";
 
 export const ArticleWrapper = styled.article`
   padding: 20px 0;
@@ -58,4 +59,11 @@ export const ListItem = styled.li`
     color: ${h1Color2};
     font-weight: 700;
   }
+`;
+
+export const ArticleImage = styled.div`
+  background-image: url(${(props) =>
+    props.image === 1 ? workshopImage : testImg2});
+  background-size: cover;
+  height: 375px;
 `;

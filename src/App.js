@@ -53,8 +53,21 @@ function App() {
             path="/"
             element={
               <div>
-                <Article data={data[0]} background={1} headingColor={1} />
                 <Article data={data[1]} background={2} headingColor={1} />
+
+                <LinkBlocks
+                  data={[data[2], data[0], data[4]]}
+                  background={2}
+                  readMore={data[5].readMore}
+                />
+              </div>
+            }
+          />
+          <Route
+            path="/coaching"
+            element={
+              <div>
+                <Article data={data[0]} background={1} headingColor={1} />
 
                 <LinkBlocks
                   data={[data[2], data[3], data[4]]}
@@ -69,7 +82,6 @@ function App() {
             element={
               <div>
                 <Article data={data[2]} background={1} headingColor={1} />
-                <Article data={data[3]} background={2} headingColor={1} />
                 <LinkBlocks
                   data={[data[0], data[1], data[4]]}
                   background={2}
@@ -82,9 +94,27 @@ function App() {
             path="/workshops"
             element={
               <div>
-                <Article data={data[4]} background={1} headingColor={1} />
+                <Article
+                  data={data[4]}
+                  background={1}
+                  headingColor={1}
+                  image={1}
+                />
                 <LinkBlocks
                   data={[data[0], data[1], data[2]]}
+                  background={2}
+                  readMore={data[5].readMore}
+                />
+              </div>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <div>
+                <Article data={data[3]} background={2} headingColor={1} />
+                <LinkBlocks
+                  data={[data[0], data[1], data[4]]}
                   background={2}
                   readMore={data[5].readMore}
                 />

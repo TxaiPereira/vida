@@ -11,8 +11,9 @@ import {
 function Header({ data }) {
   const menuItems = [
     { text: data.aboutMeLinkText, link: "/over_mij" },
-    { text: data.coachingLinkText, link: "/" },
+    { text: data.coachingLinkText, link: "/coaching" },
     { text: data.workshopsLinkText, link: "/workshops" },
+    { text: data.contactLinkText, link: "/contact" },
   ];
 
   return (

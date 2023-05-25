@@ -2,28 +2,27 @@
   {
     "header": "Coaching Cristão Criativo",
     "text": [
-      "Deus é o Criador, Ele o fez e deu Suas habilidades criativas também a você. A criatividade é um instrumento que pode ajudá-lo a curar dores, bloqueios e emoções de uma maneira segura.",
-      "A missão da VIDA é, passo a passo, dar um lugar ao seu passado e deixá-lo ir, para avançar em direção ao futuro que Deus tem para você. Fazemos isso com a ajuda da criação da arte para que você possa florescer. Você descobrirá que você é digna, com suas próprias habilidades e talentos únicos."
+      "Você está à procura de sua identidade, ou buscando cura interior ou está passando por um período difícil em sua vida? Juntas, quero te ajudar nesta caminhada, usando a criatividade como meio para alcançar o que seu coração almeja.",
+      "Passo a passo dando um lugar ao seu passado e deixá-lo ir, para avançar em direção ao futuro que Deus tem para você.",
+      "Você deve estar se perguntando: Como? Eu não sou criativa. Você sabia que Deus é o Maior Artista? Ele criou o universo e tudo que está nele.",
+      "E Deus criou você, mulher, de uma forma única e especial, a semelhança a Sua imagem e com Seu DNA criativo. Sim, Deus fez você criativa e criadora!",
+      "Através da criatividade você cria um meio pelo qual Deus fala com você, te ajudando a reconhecer e trabalhar em suas emoções.",
+      "Quero te levar nesta jornada, e você vivenciará o amor de Deus, que tudo transforma, renova, faz florescer e crescer."
     ],
     "hasList": true,
     "lists": [
       {
-        "text": [
-          "Nós trabalharemos com diferentes técnicas, como por exemplo:"
-        ],
-        "items": ["Pintura", "Desenho", "Fazendo colagens", "Mixed media"]
+        "text": ["INFORMAÇÕES:"],
+        "items": [
+          "A primeira consulta de conhecimento é de 30 a 45 minutos online ou presencial.",
+          "A duração das consultas é de 1 hora à 1hora e meia."
+        ]
       },
       {
-        "text": [
-          "Você já pensou:",
-          "Não deixe que estes pensamentos a impeçam. Todos podem criar, você também pode",
-          " Deseja marcar uma consulta? Então entre em contato via e-mail (nome@gmail.com) ou telefone (777-7777777)"
-        ],
+        "text": ["INVESTIMENTO:"],
         "items": [
-          "Eu não sei desenhar",
-          "Eu não sou criativa",
-          "Eu não tenho experiência",
-          "Por que eu deveria começar com isto?"
+          "Primeira consulta: grátis",
+          "Por consulta: €55,00 – inclusive material"
         ]
       }
     ],
@@ -34,8 +33,10 @@
   {
     "header": "Por que Vida?",
     "text": [
-      "VIDA é um coaching cristão criativo para mulheres de língua holandesa e portuguesa.",
-      "Deus é a fonte da VIDA, Dele vem a vida e a luz. VIDA é o lugar onde você vivencia o amor de Deus para si libertar e crescer. No VIDA trabalharenos os seus valores, aptidões, raízes e habilidades para que você possa florecer e creser como Deus planejou: amada, digna e preciosa."
+      "Vida é um projeto de Coaching Cristão criativo para você, mulher.",
+      "O projeto que Deus colocou em meu coração.",
+      "A missão Vida é te levar para as promessas que Deus tem em sua vida, transformando você numa mulher amada, valiosa e digna.",
+      "Vida oferece atendimentos individuais com criatividade e em grupos de workshops criativos, tanto no idioma holandês como no idioma português.  "
     ],
     "hasList": false,
     "hasQuotes": true,
@@ -49,53 +50,61 @@
   },
 
   {
-    "header": "Quem sou eu",
+    "header": "SOBRE MIM",
     "text": [
-      "Sou Ingrid Pereira de Lacerda-Eltink, nascida em 1967, brasileira, filha de holandeses, casada e mãe de 2 filhos.",
-      "Terapeuta ocupacional pela universidade PUC Campinas - Brasil. Com experiência em atendimentos a clínicas. Desde 2003, na Holanda, desenvolvo trabalho de supervisora ​​de atividades em um lar de idosos e de música clássica, desenho e pintura e arranjos de flores.",
-      "Dentro da comunidade cristã atuai em atividades infantis, “Prayer Post”, “Healing Room” e atualmente com o grupo “Mulheres Conectadas com Deus”.",
-      "Em 2021, após o programa “Powerwomen” da Total Balance desenvolvi esse projeto VIDA. Em 2022 conclui o treinamento “Coaching com a Sua Criatividade” - Atelier Ágape e “Pastoral Coach” - Total Balance."
+      "Sou Ingrid Pereira de Lacerda-Eltink, nascida no Brasil em 1967, filha de holandeses, sou casada e mãe de 2 filhos.",
+      "Formada terapeuta ocupacional pela universidade PUC de Campinas - Brasil. Com experiência em atendimentos às clínicas no Brasil.",
+      "Em 1992 imigramos para a Holanda, onde residimos até hoje. Desde 2003 desenvolvo trabalho de supervisora de atividades em um lar de idosos na música clássica, desenho, pintura, arranjos de flores e outras atividades no salão criativo.",
+      "Dentro da comunidade cristã atuai em atividades infantis, “Healing Room”, “Prayer Post” e atualmente com o grupo “Mulheres Conectadas com Deus”.",
+      "Participei de diversas Conferências Cristãs de Identidade, cura e libertação e cursos de criatividade cristã.",
+      "Em 2021, após o treinamento “Powervrouwen” de um ano desenvolvi esse projeto Vida. Em 2022 conclui o treinamento “Coaching com a Sua Criatividade” - Atelier Ágape. Em 2023 concluo o treinamento “Pastoral Coach” - Total Balance e inicio o estudo “Formação Básica em Coaching” - Total Balance."
     ],
     "hasList": false,
     "hasQuotes": false,
     "link": "/over_mij"
   },
   {
-    "header": "Minha missão",
-    "text": [
-      "Servir ao próximo com os dons que Deus me deu, desenvolvendo e abrindo o corações das mulheres para transformação pessoal."
-    ],
+    "header": "Contato",
+    "text": ["Endereço:", "Telefone: 06", "E-mail:"],
     "hasList": false,
     "hasQuotes": false,
     "link": "/over_mij"
   },
 
   {
-    "header": "Workshops",
+    "header": "WORKSHOPS CRIATIVOS",
     "text": [
-      "Você está procurando autoconhecimento?",
-      "Você gosta de ser criativo em grupo de mulheres ou individual?",
-      "Então você está no lugar certo no VIDA.",
-      "O workshop é realizado para grupos de mulheres (max. 6 pessoas) ou individualmente."
+      "O workshop no Vida é um momento criativo junto com outras mulheres ou individualmente.",
+      "Criando e sendo criativa, onde você vai ter a oportunidade de experimentar diversos materiais e técnicas.",
+      "O workshop criativo cristão é uma das formas, ainda não muito conhecida, onde Deus fala ao seu coração.",
+      "No final do workshop você leva sua obra artística para casa."
     ],
     "hasList": true,
     "lists": [
       {
-        "text": ["Através de oficinas:"],
+        "text": ["Diversos workshops:"],
         "items": [
-          "Pintura",
-          "Mídia mista",
-          "Arranjo de flores",
-          "Moodboard",
-          "Criação bíblica"
+          "Pintura profética",
+          "Mixed media (pintura e colagem com técnicas mistas)",
+          "Arranjo de flores profético",
+          "Visionboard (quadro de visualização)"
         ]
       },
       {
-        "text": ["Informação:"],
+        "text": ["INFORMAÇÕES:"],
         "items": [
-          "Data: setembro 2023",
-          "Sessão: individual - 1 hora; grupo - 2 horas",
-          "Invistemento: individual - €65,00; grupo: €30,00; inclusive material e café/chá"
+          "Data: julho 2023",
+          "Individual: 1 hora e meia",
+          "Grupo: 2 horas e meia"
+        ]
+      },
+      {
+        "text": ["INVESTIMENTO:"],
+        "items": [
+          "Inclusive material e coffee break",
+          "Individual: €55,00",
+          "Grupo: €35,00 por pessoa",
+          "Se o custo for realmente um problema para você, entre em contato comigo."
         ]
       }
     ],
@@ -108,6 +117,7 @@
     "contactHeader": "CONTATO",
     "aboutMeLinkText": "Sobre mim",
     "coachingLinkText": "Coaching",
-    "workshopsLinkText": "Workshops"
+    "workshopsLinkText": "Workshops",
+    "contactLinkText": "Contato"
   }
 ]
