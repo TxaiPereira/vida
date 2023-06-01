@@ -7,9 +7,11 @@ import {
   buttonBackgroundColorHover,
   buttonTextColorHover,
   h1Color2,
+  articleBackgroundColor1,
+  articleBackgroundColor2,
 } from "../../colors";
 
-import testImg1 from "../Article/assets/test1.jpg";
+import testImg1 from "../Article/assets/test1.png";
 import testImg2 from "../Article/assets/test2.jpg";
 
 export const LinkSection = styled.section`
@@ -18,6 +20,7 @@ export const LinkSection = styled.section`
 
   background-image: url(${(props) =>
     props.background === 1 ? testImg1 : testImg2});
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

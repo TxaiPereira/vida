@@ -7,9 +7,10 @@ import {
   h1Color2,
 } from "../../colors";
 
-import testImg1 from "./assets/test1.jpg";
+import testImg1 from "./assets/test1.png";
 import testImg2 from "./assets/test2.jpg";
 import workshopImage from "./assets/workshop.jpg";
+import bloemschikkenImage from "./assets/bloemschikken.jpg";
 
 export const ArticleWrapper = styled.article`
   padding: 20px 0;
@@ -63,7 +64,15 @@ export const ListItem = styled.li`
 
 export const ArticleImage = styled.div`
   background-image: url(${(props) =>
-    props.image === 1 ? workshopImage : testImg2});
-  background-size: cover;
-  height: 375px;
+    props.image === 1
+      ? workshopImage
+      : props.image === 2
+      ? bloemschikkenImage
+      : testImg1});
+  background-size: 100% 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 456px;
+  width: 100%;
 `;
