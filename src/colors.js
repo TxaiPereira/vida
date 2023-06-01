@@ -29,4 +29,4 @@ export const h1Color1 = red;
 export const h1Color2 = oliveGreen;
 
 export const linkColor = red;
-export const linkHoverColor = yellow;
+export const linkHoverColor = oliveGreen;
