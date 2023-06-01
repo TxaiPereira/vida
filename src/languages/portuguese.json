@@ -27,7 +27,7 @@
       }
     ],
     "hasQuotes": false,
-    "link": "/"
+    "link": "/coaching"
   },
 
   {
@@ -68,7 +68,7 @@
     "text": ["Endereço:", "Telefone: 06", "E-mail:"],
     "hasList": false,
     "hasQuotes": false,
-    "link": "/over_mij"
+    "link": "/contact"
   },
 
   {
