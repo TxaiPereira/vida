@@ -52,7 +52,7 @@ export const Logo = styled.div`
   margin-left: 20px;
 
   @media only screen and (max-width: 510px) {
-    background-image: url(${LogoSmallImg});
+    background-image: url(${LogoImg});
     background-position: left;
     margin-left: 10px;
     width: 80px;
