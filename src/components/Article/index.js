@@ -19,13 +19,12 @@ function Article({ data, background, headingColor, image }) {
 
         {data.text[1] !== null && <P>{data.text[1]}</P>}
         {data.text[2] !== null && <P>{data.text[2]}</P>}
-        {data.text[3] !== null && <P>{data.text[3]}</P>}
-        {data.text[4] !== null && <P>{data.text[4]}</P>}
-        {data.text[5] !== null && <P>{data.text[5]}</P>}
-
         {data.hasQuotes && (
           <Quote quote={data.quotes[0].quote} source={data.quotes[0].source} />
         )}
+        {data.text[3] !== null && <P>{data.text[3]}</P>}
+        {data.text[4] !== null && <P>{data.text[4]}</P>}
+        {data.text[5] !== null && <P>{data.text[5]}</P>}
 
         <ArticleImage image={image} />
 
