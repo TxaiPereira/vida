@@ -9,8 +9,8 @@ const yellow = "#e5cb5e";
 
 export const textColor = black;
 export const bodyBackgroundColor = aliceBlue;
-export const articleBackgroundColor1 = oliveGreen;
-export const articleBackgroundColor2 = pink;
+export const slideShowBackgroundColor = pink;
+export const articleBackgroundColor = white;
 export const quoteBackgroundColor = oliveGreen;
 export const quoteTextColor = white;
 export const footerBackgroundColor = pink;

@@ -95,7 +95,7 @@ function App() {
                   data={data[2]}
                   background={1}
                   headingColor={1}
-                  image={0}
+                  image={2}
                 />
                 <LinkBlocks
                   data={[data[0], data[1], data[4]]}
@@ -113,7 +113,7 @@ function App() {
                   data={data[4]}
                   background={1}
                   headingColor={1}
-                  image={2}
+                  image={0}
                 />
                 <LinkBlocks
                   data={[data[0], data[1], data[2]]}
@@ -131,7 +131,7 @@ function App() {
                   data={data[3]}
                   background={2}
                   headingColor={1}
-                  image={0}
+                  image={1}
                 />
                 <LinkBlocks
                   data={[data[0], data[1], data[4]]}

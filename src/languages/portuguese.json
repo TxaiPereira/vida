@@ -64,7 +64,13 @@
   },
   {
     "header": "Contato",
-    "text": ["Endereço:", "Telefone: 06", "E-mail:"],
+    "text": [
+      "Endereço:",
+      "067777777",
+      "email@email.nl",
+      "@facebook",
+      "@instagram"
+    ],
     "hasList": false,
     "hasQuotes": false,
     "link": "/contact"

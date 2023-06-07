@@ -64,7 +64,13 @@
   },
   {
     "header": "Contact",
-    "text": ["Adres:", "Telefoon: 06", "E-mail:"],
+    "text": [
+      "Adres:",
+      "067777777",
+      "email@email.nl",
+      "@facebook",
+      "@instagram"
+    ],
     "hasList": false,
     "hasQuotes": false,
     "link": "/contact"

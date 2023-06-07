@@ -16,7 +16,6 @@ import testImg2 from "../Article/assets/test2.jpg";
 
 export const LinkSection = styled.section`
   padding: 20px 0;
-  margin-top: 30px;
 
   background-image: url(${(props) =>
     props.background === 1 ? testImg1 : testImg2});
