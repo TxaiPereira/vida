@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   HeaderWrapper,
   Nav,
+  HamburgerMenu,
   MenuList,
   MenuItem,
   MenuLink,
@@ -16,13 +17,16 @@ function Header({ data }) {
     { text: data.contactLinkText, link: "/contact" },
   ];
 
+  const [hamburger, setHamburger] = useState(false);
+
   return (
     <HeaderWrapper>
       <a href="/">
         <Logo />
       </a>
       <Nav>
-        <MenuList>
+        <HamburgerMenu onClick={() => setHamburger(!hamburger)} />
+        <MenuList hamburger={hamburger}>
           {menuItems.map((item, index) => (
             <MenuItem key={index}>
               <MenuLink href={item.link}>{item.text}</MenuLink>

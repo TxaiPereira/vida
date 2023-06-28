@@ -57,7 +57,7 @@ function App() {
                   data={data[1]}
                   background={2}
                   headingColor={1}
-                  image={0}
+                  image={2}
                 />
 
                 <LinkBlocks

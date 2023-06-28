@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 import { headerColor, linkColor, linkHoverColor } from "../../colors";
 import LogoImg from "./assets/logo.svg";
-import LogoSmallImg from "./assets/logoSmall.svg";
+import hamburgerOn from "./assets/hamburger_on.png";
+import hamburgerOff from "./assets/hamburger_off.png";
 
 export const HeaderWrapper = styled.header`
   display: flex;
@@ -17,10 +18,36 @@ export const HeaderWrapper = styled.header`
 
 export const Nav = styled.nav``;
 
+export const HamburgerMenu = styled.button`
+  display: none;
+  @media only screen and (max-width: 510px) {
+    display: block;
+    width: 90px;
+    height: 90px;
+    border: none;
+    right: 0;
+    position: fixed;
+    background-image: url(${hamburgerOff});
+    background-size: cover;
+    background-color: ${headerColor};
+    :hover {
+      background-image: url(${hamburgerOn});
+    }
+  }
+`;
+
 export const MenuList = styled.ul`
   list-style: none;
   display: flex;
   height: 100%;
+  flex-direction: row;
+
+  @media only screen and (max-width: 510px) {
+    display: ${(props) => (props.hamburger === true ? "flex" : "none")};
+    margin-top: 90px;
+    flex-direction: column;
+    background-color: ${headerColor};
+  }
 `;
 
 export const MenuItem = styled.li`
@@ -28,6 +55,10 @@ export const MenuItem = styled.li`
   height: 100%;
   padding: 0 10px;
   font-weight: 700;
+  @media only screen and (max-width: 510px) {
+    width: 100%;
+    margin-left: -10px;
+  }
 `;
 
 export const MenuLink = styled.a`
@@ -40,6 +71,12 @@ export const MenuLink = styled.a`
   color: ${linkColor};
   :hover {
     color: ${linkHoverColor};
+  }
+  @media only screen and (max-width: 510px) {
+    height: 50px;
+    background-color: ${headerColor};
+    width: 130px;
+    margin-right: -10px;
   }
 `;
 
@@ -55,6 +92,5 @@ export const Logo = styled.div`
     background-image: url(${LogoImg});
     background-position: left;
     margin-left: 10px;
-    width: 80px;
   }
 `;
