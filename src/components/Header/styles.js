@@ -20,7 +20,7 @@ export const Nav = styled.nav``;
 
 export const HamburgerMenu = styled.button`
   display: none;
-  @media only screen and (max-width: 510px) {
+  @media only screen and (max-width: 728px) {
     display: block;
     width: 90px;
     height: 90px;
@@ -42,7 +42,7 @@ export const MenuList = styled.ul`
   height: 100%;
   flex-direction: row;
 
-  @media only screen and (max-width: 510px) {
+  @media only screen and (max-width: 728px) {
     display: ${(props) => (props.hamburger === true ? "flex" : "none")};
     margin-top: 90px;
     flex-direction: column;
@@ -55,7 +55,7 @@ export const MenuItem = styled.li`
   height: 100%;
   padding: 0 10px;
   font-weight: 700;
-  @media only screen and (max-width: 510px) {
+  @media only screen and (max-width: 728px) {
     width: 100%;
     margin-left: -10px;
   }
@@ -72,7 +72,7 @@ export const MenuLink = styled.a`
   :hover {
     color: ${linkHoverColor};
   }
-  @media only screen and (max-width: 510px) {
+  @media only screen and (max-width: 728px) {
     height: 50px;
     background-color: ${headerColor};
     width: 130px;
@@ -88,7 +88,7 @@ export const Logo = styled.div`
   width: 200px;
   margin-left: 20px;
 
-  @media only screen and (max-width: 510px) {
+  @media only screen and (max-width: 728px) {
     background-image: url(${LogoImg});
     background-position: left;
     margin-left: 10px;

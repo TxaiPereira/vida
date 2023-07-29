@@ -33,10 +33,10 @@
   {
     "header": "Por que Vida?",
     "text": [
-      "Vida é um projeto de coaching cristão criativo voltado especialmente para mulheres.",
-      "É o projeto que Deus colocou em meu coração.",
-      "A missão Vida é te levar para as promessas que Deus tem em sua vida, transformando você numa mulher amada, valiosa e digna.",
-      "A Vida oferece coaching criativo individual e workshops criativos em grupo, tanto em holandês quanto em português."
+      "Vida é um projeto de coaching cristão criativo voltado especialmente para mulheres. Ofereço coaching criativo individual e workshops criativos em grupo, tanto em holandês quanto em português.",
+      "A Vida nasceu do meu amor por Deus, da minha paixão pela criatividade e por ajudar as mulheres. Estou pronta para ajudá-la com um coração amoroso e comovido. Com tranquilidade ouço a sua história. A missão Vida é te levar para as promessas que Deus tem em sua vida, transformando você numa mulher amada, valiosa e digna.",
+      "Por meio de várias tarefas criativas e com a ajuda de Deus, vamos abrir mais espaço em seu coração. E junto com Deus você entrará em um processo de cura e recuperação. Nesse processo você descobrirá coisas, receberá novas percepções e se conhecerá melhor.",
+      "Deus e o amor são a base de minha vida. Essa aplico à Vida também, bem como os valores bíblicos."
     ],
     "hasList": false,
     "hasQuotes": true,
@@ -120,6 +120,7 @@
     "readMore": "consulte mais informação",
     "addressHeader": "MORADA",
     "contactHeader": "CONTATO",
+    "whyVida": "Por que Vida?",
     "aboutMeLinkText": "Sobre mim",
     "coachingLinkText": "Coaching",
     "workshopsLinkText": "Workshops",
