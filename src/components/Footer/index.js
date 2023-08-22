@@ -11,7 +11,7 @@ function Footer({ data }) {
   return (
     <FooterWrapper>
       <InfoBlocks>
-        <InfoBlock>
+        {/* <InfoBlock>
           <InfoHeader>{data.addressHeader}</InfoHeader>
           <InfoText>Vrouwlaan 85</InfoText>
           <InfoText>1337 GG Hemeldam</InfoText>
@@ -26,7 +26,7 @@ function Footer({ data }) {
           <InfoHeader>VIDA</InfoHeader>
           <InfoText>BTW nr: NL007777777Z77</InfoText>
           <InfoText>KVK nr: 77777777</InfoText>
-        </InfoBlock>
+        </InfoBlock> */}
       </InfoBlocks>
     </FooterWrapper>
   );

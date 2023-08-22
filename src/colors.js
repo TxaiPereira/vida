@@ -2,31 +2,30 @@ const white = "#fcfbf4";
 const black = "#2b2b2b";
 
 const aliceBlue = "#EBF0F6";
-const oliveGreen = "#ABB368";
-const pink = "#ffc0b8";
-const red = "#e85d5d";
-const yellow = "#e5cb5e";
+const green = "#9CC477";
+const lightPink = "#FEC0D6";
+const pink = "#FD8EB6";
 
 export const textColor = black;
 export const bodyBackgroundColor = aliceBlue;
-export const slideShowBackgroundColor = pink;
+export const slideShowBackgroundColor = lightPink;
 export const articleBackgroundColor = white;
-export const quoteBackgroundColor = oliveGreen;
+export const quoteBackgroundColor = green;
 export const quoteTextColor = white;
-export const footerBackgroundColor = pink;
+export const footerBackgroundColor = lightPink;
 
 export const linkBlockBackgroundColor = white;
 
-export const buttonBackgroundColor = red;
-export const buttonBackgroundColorHover = oliveGreen;
+export const buttonBackgroundColor = pink;
+export const buttonBackgroundColorHover = green;
 
 export const buttonTextColor = white;
 export const buttonTextColorHover = white;
 
 export const headerColor = white;
 
-export const h1Color1 = red;
-export const h1Color2 = oliveGreen;
+export const h1Color1 = pink;
+export const h1Color2 = green;
 
-export const linkColor = red;
-export const linkHoverColor = oliveGreen;
+export const linkColor = pink;
+export const linkHoverColor = green;

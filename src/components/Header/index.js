@@ -23,7 +23,7 @@ function Header({ data }) {
   return (
     <HeaderWrapper>
       <a href="/">
-        <Logo />
+        <Logo lang={data.language} />
       </a>
       <Nav>
         <HamburgerMenu onClick={() => setHamburger(!hamburger)} />

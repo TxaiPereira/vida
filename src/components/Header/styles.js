@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 import { headerColor, linkColor, linkHoverColor } from "../../colors";
-import LogoImg from "./assets/logo.svg";
+import LogoNL from "./assets/logoNL.svg";
+import LogoPT from "./assets/logoPT.svg";
 import hamburgerOn from "./assets/hamburger_on.png";
 import hamburgerOff from "./assets/hamburger_off.png";
 
@@ -81,7 +82,7 @@ export const MenuLink = styled.a`
 `;
 
 export const Logo = styled.div`
-  background-image: url(${LogoImg});
+  background-image: url(${(props) => (props.lang === "NL" ? LogoNL : LogoPT)});
   background-repeat: no-repeat;
   background-position: left;
   height: 100%;
@@ -89,7 +90,8 @@ export const Logo = styled.div`
   margin-left: 20px;
 
   @media only screen and (max-width: 728px) {
-    background-image: url(${LogoImg});
+    background-image: url(${(props) =>
+      props.lang === "NL" ? LogoNL : LogoPT});
     background-position: left;
     margin-left: 10px;
   }
